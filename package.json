@@ -1,0 +1,25 @@
+{
+  "name": "toka",
+  "version": "1.0.0",
+  "description": "2D animation for streaming",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^4.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . --overwrite --platform=win32 --out=release-builds --icon=assets/icons/win/toka.ico --version-string.CompanyName='GGOS' --version-string.FileDescription='Toka - 2D Animation' --version-string.ProductName='Toka'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GGOS-Dev/toka.git"
+  },
+  "author": "Victor Chanil Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GGOS-Dev/toka/issues"
+  },
+  "homepage": "https://github.com/GGOS-Dev/toka#readme"
+}
