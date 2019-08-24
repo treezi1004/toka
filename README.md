@@ -1,5 +1,5 @@
 # toka
-2D animation for streaming.
+2D animation for streaming. The program detects level of sound using web audio API and change the images to create animation.
 
 ## Current Stage
 Pre-Alpha
