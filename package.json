@@ -4,7 +4,7 @@
   "description": "2D animation for streaming",
   "main": "main.js",
   "dependencies": {
-    "electron": "^4.0.8"
+    "electron": "^9.4.0"
   },
   "devDependencies": {},
   "scripts": {
